@@ -1,0 +1,1 @@
+<div id="yorum_id" class="yorum">	<div class="yorumSag">		<div class="yorumUst"><strong>@<?php echo $yazan; ?></strong> demiş ki;</div>		<div class="yorumText"><?php echo $yorum; ?></div>	</div>	<div class="avatar">		<img src="<?php echo $avatar; ?>" alt=""/>	</div></div>

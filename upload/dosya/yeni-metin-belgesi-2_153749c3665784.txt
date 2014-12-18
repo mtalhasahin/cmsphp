@@ -1,0 +1,48 @@
+ static void Main(string[] args)
+        {
+            //Girilen kelime kaç tane ünlü harf var
+            char[] harfler = { 'a', 'e', 'ý', 'i', 'o', 'ö', 'u', 'ü' };
+            string metin;
+            int sayac=0;
+            Console.WriteLine("Kelime Giriniz:");
+            metin = Console.ReadLine();
+
+            for (int i = 0; i < harfler.Length; i++) {
+                for (int j = 0; j < metin.Length; j++) {
+                    if (metin[j] == harfler[i]) {
+                        sayac++;
+                    }
+                }
+            
+            }
+
+            Console.WriteLine(sayac);
+            Console.ReadLine();
+            }
+                
+            }
+            
+        }
+
+
+
+
+// faktoriyel
+
+ public static int faktoriyel(int sayi){
+       int sonuc=1;
+       for(int i=2;i<=sayi;i++){
+       sonuc=sonuc*i;
+       }
+       return sonuc;
+    }
+    public static void main(String[] args) {
+     int sayi,faktoriyel=1;
+        Scanner klavye=new Scanner(System.in);
+        System.out.println("Bir sayi giriniz:");
+        sayi=klavye.nextInt();
+        faktoriyel=faktoriyel(sayi);
+        System.out.println(sayi+".faktoriyeli:"+faktoriyel);
+       }
+       
+    }

@@ -1,0 +1,16 @@
+/* Yorum */
+#yorumlar {background: url("../images/solCizgi2.png") repeat-x bottom left!important; padding-bottom: 10px; margin-bottom: 20px}
+h3.yorum-h3 {font-size: 18px; margin-bottom: 10px}
+
+.yorum {border: 2px solid #e1e1e1; padding: 10px; border-radius: 3px; overflow: auto; margin-bottom: 10px}
+.avatar {float: left; margin-right: 10px}
+	.avatar img {width: 50px; height: 50px}
+.yorumSag {float: right; width: 510px}
+.yorumText {font-size: 12px; color: #656565; padding-top: 7px}
+
+/* Yorum Yap */
+.yorumForm {background: #f8f8f8; padding: 10px; border-radius: 3px}
+.yorumForm ul li {padding: 3px 0; font-size: 13px}
+.yorumForm ul li input {border: 1px solid #ddd; padding: 4px; width: 220px; border-radius: 3px}
+.yorumForm ul li textarea {border: 1px solid #ddd; padding: 4px; width: 220px; border-radius: 3px; width: 500px; height: 100px; resize: none; font: 12px/21px Arial}
+.yorumForm ul li button {background: #333; padding: 3px 6px; color: #fff; cursor: pointer; border-radius: 3px}
